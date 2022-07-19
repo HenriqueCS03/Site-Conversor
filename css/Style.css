@@ -1,7 +1,140 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14;
+    font-size: 16;
     color: black;
     padding: 0;
     margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    background-image: url('../img/fundo-pattern.webp');
+}
+
+h1{
+    font-size: 50px;
+}
+
+span{
+    color: rgb(0, 255, 157);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 2rem 1rem;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    margin-bottom: 2rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-principal{
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    width: 20rem;
+    margin-left: auto;
+}
+
+.selecionar{
+    padding: 1.25rem;
+    border: ridge white;
+}
+
+.menu-lateral{
+    background-color: #2d2828;
+    margin-right: 8rem;
+    border-radius: 0.6rem;
+    max-width: 20rem;
+    max-height: 20rem;
+    margin-left: auto;
+
+}
+
+.menu-lateral a{
+    color: white;
+}
+
+.menu-lateral a:hover{
+    color: rgb(0, 255, 157);
+    text-decoration: underline;
+}
+
+.titulo-forms{
+    padding: 1.25rem;
+}
+
+.div-inserir{
+    padding: 20px;
+}
+
+.div-info{
+    margin-left: 0.5rem;
+}
+
+.valor{
+    border: ridge #2d2828 ;
+    padding: 8px;
+}
+
+.confirmar{
+    background-color: rgb(0, 255, 157);
+    border: ridge #2d2828 ;
+    padding: 8px;
+}
+
+.confirmar:hover{
+    background-color: #2d2828;
+    color: white;
+    transition: 0.2s;
+}
+
+
+.resultado{
+    border: ridge #2d2828 ;
+    padding: 8px;
+}
+
+.rodape{
+    height: 5rem;
+    bottom: 0rem;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.22);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.8px);
+    -webkit-backdrop-filter: blur(5.8px);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.rede-social{
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.8px);
+    -webkit-backdrop-filter: blur(5.8px);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    margin: 0.8rem 3rem;
+    width: 3rem;
+    transition: all 0,8s ease-in-out;
+}
+
+.rede-social:hover{
+    transform: scale(1.4) rotate(10deg);
 }
