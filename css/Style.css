@@ -63,7 +63,7 @@ span{
     max-width: 20rem;
     max-height: 20rem;
     margin-left: auto;
-
+    font-weight: 600;
 }
 
 .menu-lateral a{
@@ -76,7 +76,10 @@ span{
 }
 
 .titulo-forms{
+    text-align: 50px;
     padding: 1.25rem;
+    text-align: center;
+    
 }
 
 .div-inserir{
@@ -85,6 +88,8 @@ span{
 
 .div-info{
     margin-left: 0.5rem;
+    font-size: larger;
+    font-weight: 1000;
 }
 
 .valor{
