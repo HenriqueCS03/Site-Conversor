@@ -96,6 +96,7 @@ span{
     background-color: rgb(0, 255, 157);
     border: ridge #2d2828 ;
     padding: 8px;
+    cursor: pointer;
 }
 
 .confirmar:hover{
@@ -133,6 +134,7 @@ span{
     margin: 0.8rem 3rem;
     width: 3rem;
     transition: all 0,8s ease-in-out;
+    cursor: pointer;
 }
 
 .rede-social:hover{
