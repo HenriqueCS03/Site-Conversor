@@ -13,7 +13,7 @@
     
     <header class="cabecalho">
         <div class="titulo">
-            <h1><span>Conversor</span> Gratuito</h1>
+            <h1><span id="conversorName">Conversor</span> Gratuito</h1>
             <p>Henrique Cesar de Souza</p>
         </div>
     </header>
@@ -24,10 +24,10 @@
             <div class="formulario">  
                 <form>
                     <div class="div-info">
-                        <label for="converterValor">Insira o valor:</label>
+                        <label for="converterValor">Valor <span id="nmAlteracaone">Decimal</span>:</label>
                     </div>
                     <div class="div-inserir">    
-                        <input class="valor" type="number" id="converterValorId" value="" placeholder="(bin)">
+                        <input class="valor" type="number" id="converterValorId" value="" placeholder="(dec)">
                     </div>
                     <div class="div-acoes">
                         <div class="div-inserir">
@@ -38,10 +38,10 @@
                         </div>
                         </div>
                     <div class="div-info">
-                        <p>Em valor <span id="nmAlteracao"> Decimal</span>:</p>  
+                        <p>Para<span id="nmAlteracaot"> Binário</span>:</p>  
                     </div>
                     <div class="div-inserir">
-                        <p class="resultado" id="resultadoId">(dec)</p>
+                        <p class="resultado" id="resultadoId">(bin)</p>
                     </div>
                     
                 </form>
@@ -51,13 +51,13 @@
         <div class="menu-lateral">
                 <ul>
                     <div class="selecionar">
-                        <li><a id="binDec" href="">Binário para Decimal</a></li>
+                        <li><a id="decBin" href="#">Decimal para Binário</a></li>
                     </div>
                     <div class="selecionar">
-                        <li><a id="decBin" href="">Decimal para Binário</a></li>
+                        <li><a id="binDec" href="#">Binário para Decimal</a></li>
                     </div> 
                     <div class="selecionar">
-                        <li><a id="decOct" href="">Decimal para Octagonal</a></li>
+                        <li><a id="decOct" href="#">Decimal para Octagonal</a></li>
                     </div>
                 </ul>            
         </div>

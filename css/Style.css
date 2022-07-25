@@ -16,7 +16,7 @@ h1{
     font-size: 50px;
 }
 
-span{
+#conversorName{
     color: rgb(0, 255, 157);
 }
 
@@ -28,7 +28,7 @@ span{
     padding: 2rem 1rem;
     background: rgba(255, 255, 255, 0.06);
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(4.5px);
     -webkit-backdrop-filter: blur(4.5px);
     margin-bottom: 2rem;
@@ -44,7 +44,7 @@ span{
 .div-principal{
     background: rgba(255, 255, 255, 0.06);
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(4.5px);
     -webkit-backdrop-filter: blur(4.5px);
     width: 20rem;
@@ -132,6 +132,14 @@ span{
     text-align: left;
 }
 
+#nmAlteracaone{
+    color: rgb(0, 255, 157);
+}
+
+#nmAlteracaot{
+    color: rgb(0, 255, 157);
+}
+
 .rodape{
     height: 5rem;
     bottom: 0rem;
@@ -140,7 +148,7 @@ span{
     width: 100%;
     background: rgba(0, 0, 0, 0.22);
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(5.8px);
     -webkit-backdrop-filter: blur(5.8px);
     border: 1px solid rgba(0, 0, 0, 0.06);
