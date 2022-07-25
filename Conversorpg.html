@@ -14,12 +14,12 @@
     <header class="cabecalho">
         <div class="titulo">
             <h1><span>Conversor</span> Gratuito</h1>
+            <p>Henrique Cesar de Souza</p>
         </div>
     </header>
 
     <div class="container">
         <div class="div-principal">
-            
             
             <div class="formulario">  
                 <form>
@@ -27,21 +27,21 @@
                         <label for="converterValor">Insira o valor:</label>
                     </div>
                     <div class="div-inserir">    
-                        <input class="valor" type="number" id="converterValor" value="" placeholder="(bin)">
+                        <input class="valor" type="number" id="converterValorId" value="" placeholder="(bin)">
                     </div>
                     <div class="div-acoes">
                         <div class="div-inserir">
-                            <input class="confirmar" type="submit" id="confirmId" value="Converter">
+                            <input class="confirmar" type="button" id="confirmId" value="Converter">
                         </div>
                         <div class="div-inserir">
                             <input class="limpar" type="button" value="Limpar" id="limparId">
                         </div>
                         </div>
                     <div class="div-info">
-                        <p>Em valor decimal:</p>  
+                        <p>Em valor <span id="nmAlteracao"> Decimal</span>:</p>  
                     </div>
                     <div class="div-inserir">
-                        <input class="resultado" type="text" id="resultadoId" value="" placeholder="(dec)"> 
+                        <p class="resultado" id="resultadoId">(dec)</p>
                     </div>
                     
                 </form>
@@ -49,19 +49,17 @@
         </div>
 
         <div class="menu-lateral">
-            <nav>
                 <ul>
                     <div class="selecionar">
-                        <li><a href="">Binário para Decimal</a></li>
+                        <li><a id="binDec" href="">Binário para Decimal</a></li>
                     </div>
                     <div class="selecionar">
-                        <li><a href="">Decimal para Binário</a></li>
+                        <li><a id="decBin" href="">Decimal para Binário</a></li>
                     </div> 
                     <div class="selecionar">
-                        <li><a href="">Decimal para Octagonal</a></li>
+                        <li><a id="decOct" href="">Decimal para Octagonal</a></li>
                     </div>
                 </ul>            
-            </nav>
         </div>
     </div>       
     <footer id="rodapeId" class="rodape">

@@ -124,8 +124,12 @@ span{
 }
 
 .resultado{
+    font-size: small;
+    background-color: #fff;
     border: ridge #2d2828 ;
-    padding: 8px;
+    padding: 6px;
+    width: 175px;
+    text-align: left;
 }
 
 .rodape{
