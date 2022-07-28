@@ -18,6 +18,20 @@ btnLimpar.addEventListener('click', ()=>{
     document.getElementById('resultadoId').innerHTML= "(bin)";
 })
 
+//Função de inverter a String
+function reverseString(str) {
+    // Passo 1. Use o método split() para retornar um novo array
+    var splitString = str.split(""); // var splitString = "hello".split("");
+    
+    // Passo 2. Use o método reverse() para inverter o array recém-criado
+    var reverseArray = splitString.reverse(); // var reverseArray = ["h", "e", "l", "l", "o"].reverse();
+ 
+    // Passo 3. Use o método join() para unir todos os elementos do array em uma string
+    var joinArray = reverseArray.join(""); // var joinArray = ["o", "l", "l", "e", "h"].join("");
+    
+    // Passo 4. Retorne a string invertida
+    return joinArray;
+}
 
 //Caso o usuário retorne para o cálculo de Decimal para Binário
 btnDecBin.addEventListener('click', ()=>{
@@ -39,16 +53,12 @@ btnDecBin.addEventListener('click', ()=>{
         document.getElementById('resultadoId').innerHTML= "(bin)";
     })
 
-
 })
-
 
 //OPERAÇÕES BINÁRIO PARA DECIMAL
 //Função Binário para Decimal
-function binDec(num){
-    var num = parseInt(document.getElementById('converterValorId').value)
-
-
+function binDec(valor){
+    
 }
 
 //Função para a conta em Binário para decimal
@@ -73,21 +83,6 @@ btnBinDec.addEventListener('click', ()=>{
         document.getElementById('resultadoId').innerHTML= "(dec)";
     })
 })
-
-//Função de inverter a String
-function reverseString(str) {
-    // Passo 1. Use o método split() para retornar um novo array
-    var splitString = str.split(""); // var splitString = "hello".split("");
-    
-    // Passo 2. Use o método reverse() para inverter o array recém-criado
-    var reverseArray = splitString.reverse(); // var reverseArray = ["h", "e", "l", "l", "o"].reverse();
- 
-    // Passo 3. Use o método join() para unir todos os elementos do array em uma string
-    var joinArray = reverseArray.join(""); // var joinArray = ["o", "l", "l", "e", "h"].join("");
-    
-    // Passo 4. Retorne a string invertida
-    return joinArray;
-}
 
 //Operações Decimal para Octagonal
 //Função Decimal para Octagonal
