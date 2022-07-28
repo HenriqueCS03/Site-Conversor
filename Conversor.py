@@ -1,5 +1,5 @@
-num = input("Digite um número inteiro: ")
 conversoes  = int(input("Escolha uma das opções de conversão(lembre-se, para converter em decimal, digite corretamente):\n[1] Para decimal\n[2] Para binário\n[3] Para octagonal\n[4] Sair do programa\nDigite a opção: "))
+num = input("Digite um número inteiro: ")
 
 i = 0
 x = 0 
@@ -44,5 +44,4 @@ while conversoes != 4:
         print("Decimal para octal é: ",octal)
         conversoes = int(input("Digite outra opção: "))
   
-print("Finalizado!")
-     
+print("Finalizado!")     
