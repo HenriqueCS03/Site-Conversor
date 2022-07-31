@@ -58,8 +58,20 @@ btnDecBin.addEventListener('click', ()=>{
 //OPERAÇÕES BINÁRIO PARA DECIMAL
 //Função Binário para Decimal
 function binDec(valor){
-    
-}
+   var dec= 0
+   var potencia= 0
+   var tam = valor.length
+    while( tam >= 0){
+        resto = valor % 10
+        dec = dec +(resto * Math.pow(2, potencia))
+        tam = tam - 1
+        potencia = potencia + 1
+        valor = Math.floor(valor/10)    
+    }
+    return dec
+}    
+   
+
 
 //Função para a conta em Binário para decimal
 btnBinDec.addEventListener('click', ()=>{
@@ -72,8 +84,8 @@ btnBinDec.addEventListener('click', ()=>{
   
     //Converter Binário para Decimal
     btnConfirm.addEventListener('click', ()=>{
-        var valor = parseInt(document.getElementById('converterValorId').value)
-        var resultadoBinDec = binDec(valor)
+        valor = document.getElementById('converterValorId').value
+        resultadoBinDec = binDec(valor)
         document.getElementById('resultadoId').innerHTML= resultadoBinDec;
     })
 

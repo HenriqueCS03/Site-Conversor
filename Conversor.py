@@ -1,5 +1,5 @@
-conversoes  = int(input("Escolha uma das opções de conversão(lembre-se, para converter em decimal, digite corretamente):\n[1] Para decimal\n[2] Para binário\n[3] Para octagonal\n[4] Sair do programa\nDigite a opção: "))
-num = input("Digite um número inteiro: ")
+num = input("Digite um número inteiro(lembre-se, para converter em decimal, digite corretamente): ")
+conversoes  = int(input("Escolha uma das opções de conversão:\n[1] Para decimal\n[2] Para binário\n[3] Para octagonal\n[4] Sair do programa\nDigite a opção: "))
 
 i = 0
 x = 0 
@@ -12,7 +12,6 @@ e = 2
 
 while conversoes != 4:
     if conversoes == 1:
-        num = num[::-1]
         while i < len(num):   
             if num[i] == "1":
                 numero = int(num[i])
